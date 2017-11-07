@@ -1,0 +1,57 @@
+#first_row
+{
+    margin-bottom: 16px;
+}
+
+#second_row, #third_row
+{
+    margin-bottom: 20px;
+}
+
+#second_row
+{
+    overflow: auto;
+}
+
+#third_row
+{
+    height: 150px;
+}
+
+.first_row_box
+{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-right: 16px;
+}
+.second_row_box
+{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    float: left;
+    margin-right: 20px;
+}
+
+.third_row_box
+{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+#second_last_box
+{
+    position: relative;
+    left: 170px;
+    bottom: 150px;
+}
+
+#last_box
+{
+    position: relative;
+    left: 340px;
+    bottom: 300px;
+}

@@ -1,0 +1,35 @@
+.box
+{
+    width: 200px;
+    padding: 10px 20px;
+    border: 2px dotted;
+    color: white;
+    background-color: gray;
+}
+
+#first_box
+{
+    margin: 30px;
+}
+
+#second_box
+{
+    margin: 30px;
+}
+
+.brain
+{
+    width: 200px;
+    margin: 5px;
+}
+
+#first_brain
+{
+    padding: 10px;
+    background-color: lightgray;
+}
+
+#second_brain
+{
+    border: 10px solid lightgray
+}
