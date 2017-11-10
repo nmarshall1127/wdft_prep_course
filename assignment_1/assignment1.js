@@ -10,7 +10,7 @@ Using the loop provided for you below, use the array push method to insert the n
 
 for(var i=0;i<10;i++){
     //use the array push() method here.
-    numbers.push((i + 1));
+    numbers.push(i + 1);
 }
 
 
@@ -31,7 +31,7 @@ var car;
 
 function vehicle()
 {
-
+    //empty
 }
 
 car = new vehicle();

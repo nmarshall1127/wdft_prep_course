@@ -1,1 +1,55 @@
 
+body
+{
+    background-color: gray;
+}
+
+#wrapper
+{
+    width: 650px;
+    margin: auto;
+    background-color: white;
+    padding: 5px;
+}
+
+#main_header, #main_header_extra
+{
+    text-align: center;
+}
+
+.float_containers_two, .float_containers_three
+{
+    overflow: auto;
+}
+
+.float_containers_two div
+{
+    width: 50%;
+    float: left;
+}
+
+.float_containers_two div:nth-child(2)
+{
+    text-align: right;
+}
+
+.list
+{
+    margin: 25px;
+}
+
+.float_containers_three div
+{
+    width: 33.333333%;
+    float: left;
+}
+
+.float_containers_three div:nth-child(2)
+{
+    text-align: right;
+}
+
+.float_containers_three div:nth-child(3)
+{
+    text-align: right;
+}
